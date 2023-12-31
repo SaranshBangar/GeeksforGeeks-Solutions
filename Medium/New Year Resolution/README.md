@@ -1,0 +1,17 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/good-by-2023/1">New Year Resolution</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">As the clock struck midnight on New Year's Eve, Geek bid farewell to the wasted moments of 2023, realizing the untapped potential of GFG's Problem of the Day. </span></p>
+<blockquote>
+<p><span style="font-size: 14pt;"><strong>His 2024 resolution: Solve POTD every day.</strong></span></p>
+</blockquote>
+<p><span style="font-size: 14pt;">Eager to earn coins for GFG Merchandise, Geek faces new rules:</span></p>
+<ol>
+<li><span style="font-size: 14pt;"><strong>Earning Coin:</strong> Geek can accumulate coins[i] by solving the POTD on the ith day, where 1 &lt;= coins[i] &lt;= 2024 and the sum of coins &lt;= 2024.</span></li>
+<li><span style="font-size: 14pt;"><strong>Merchandise Eligibility:</strong> To purchase merchandise, the coins earned must be divisible by 20 or 24, or precisely equal to 2024.</span></li>
+</ol>
+<p><span style="font-size: 14pt;">Geek's resolutions often fades over time. Realistically, he can only commit to active participation for N (where N ≤ 366) days. Given the value of N and number of coins associated with each POTD, can Geek strategically solve some (or all) POTDs to become eligible for redeeming merchandise?</span></p>
+<p><span style="font-size: 14pt;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong></span><br><span style="font-size: 14pt;">N = 8</span><br><span style="font-size: 14pt;">coins = [5, 8, 9, 10, 14, 2, 3, 5]</span><br><br><span style="font-size: 14pt;"><strong>Output: </strong>1</span><br><br><span style="font-size: 14pt;"><strong>Explanation:</strong></span><br><span style="font-size: 14pt;">Geek can fulfill the criteria in many ways.</span><br><span style="font-size: 14pt;">One such way is to solve POTD on 4th and 5th day.</span><br><span style="font-size: 14pt;">Another way is to solve POTD on 1st, 4th and 8th day.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:<br></strong></span><span style="font-size: 14pt;">N = 5<br></span><span style="font-size: 14pt;">coins = [1, 2, 3, 4, 5]</span><br><br><span style="font-size: 14pt;"><strong>Output: </strong>0</span><br><br><span style="font-size: 14pt;"><strong>Explanation: </strong></span><span style="font-size: 14pt;">There is no way Geek can become eligible.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Your Task:&nbsp;<br></strong></span><span style="font-size: 14pt;">You don't need to read input or print anything. Complete the function isPossible() which takes n and coins[ ] as input parameters and returns a boolean value.</span></p>
+<p><span style="font-size: 14pt;"><strong>Expected Time Complexity:</strong> O(N*(Sum of coins))<br></span><span style="font-size: 14pt;"><strong>Expected Auxiliary Space: </strong>O(N*(Sum of coins))</span></p>
+<p><span style="font-size: 14pt;"><strong>Constraints:<br></strong></span><span style="font-size: 14pt;">1 &lt;= N &lt;= 366<br></span><span style="font-size: 14pt;">1 &lt;= coins[i] &lt;= 2024<br></span><span style="font-size: 14pt;">1 &lt;= Sum of coins &lt;=&nbsp; 2024</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Recursion</code>&nbsp;
