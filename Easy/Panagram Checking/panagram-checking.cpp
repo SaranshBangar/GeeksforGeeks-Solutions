@@ -10,18 +10,18 @@ using namespace std;
 
 class Solution
 {
-  public:
-    bool checkPangram (string &str)
+    public:
+    bool checkPangram (string s)
     {
-        string ans="";
-        for (int i=0;i<str.length();i++)
+        vector<int> f(26, 0);
+        for(auto i:s)
         {
-            if ((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
-                ans+=tolower(str[i]);
+            char cur=tolower(i);
+            if ((cur>='a') && (cur<='z'))
+                f[cur-'a']=1;
         }
-        sort(ans.begin(), ans.end());
-        ans.erase(unique(ans.begin(), ans.end()), ans.end());
-        return (ans.length()==26);
+            
+        return accumulate(f.begin(), f.end(), 0)==26;
     }
 
 };
@@ -35,10 +35,10 @@ int main()
     cin>>t;
     cin.ignore(INT_MAX, '\n');
     while(t--){
-        string str;
-        getline(cin, str);
+        string s;
+        getline(cin, s);
         Solution obj;
-        if (obj.checkPangram(str) == true)
+        if (obj.checkPangram(s) == true)
             cout<<1<<endl;
         else
             cout<<0<<endl;
