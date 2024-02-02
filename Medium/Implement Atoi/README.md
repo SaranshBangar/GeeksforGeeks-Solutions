@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/implement-atoi/1">Implement Atoi</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a string, <strong>s</strong>, the objective is to convert it into <strong>integer format </strong>without utilizing any built-in functions. If the conversion is <strong>not feasible</strong>, the function should <strong>return -1</strong>. </span></p>
+<p><span style="font-size: 18px;"><strong>Note:</strong> Conversion is <strong>feasible only if </strong>all characters in the string are <strong>numeric </strong>or if its <strong>first character </strong>is <strong>'-'</strong> and rest are <strong>numeric</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:
+</strong><span style="font-size: 18px;">s = "-123"
+</span><strong style="font-size: 18px;">Output: <br>-</strong><span style="font-size: 18px;">123<br></span><strong style="font-size: 18px;">Explanation:<br></strong><span style="font-size: 18px;">It is possible to convert -123 into an integer <br>and is so returned in the form of an integer<br></span></span></pre>
+<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:
+</strong><span style="font-size: 18px;">s = "21a"
+</span><strong style="font-size: 18px;">Output: <br></strong><span style="font-size: 18px;">-1</span><strong style="font-size: 18px;">
+Explanation: <br></strong><span style="font-size: 18px;">The output is -1 as, due to the inclusion of 'a',<br>the given string cannot be converted to an integer.
+</span></span></pre>
+<p><span style="font-size: 18px;"><strong>Your Task:</strong><br>You do not have to take any input or print anything. Complete the function <strong>atoi()</strong> which takes a string <strong>s&nbsp;</strong>as an input parameter and returns an integer value representing the given string. If the conversion is&nbsp;<strong>not feasible</strong>, the function should&nbsp;<strong>return -1</strong>.<br></span></p>
+<p><span style="font-size: 18px;"><strong>|s| = length of string str.<br></strong></span><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O( |s| ),&nbsp;<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1)<br></span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ |s| ≤ 10</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Morgan Stanley</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Payu</code>&nbsp;<code>Adobe</code>&nbsp;<code>Code Brew</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Design-Pattern</code>&nbsp;<code>Data Structures</code>&nbsp;
