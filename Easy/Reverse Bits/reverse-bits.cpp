@@ -1,47 +1,36 @@
 //{ Driver Code Starts
-#include<bits/stdc++.h> 
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
 // } Driver Code Ends
-//User function Template for C++
 
-#include <cmath>
-#include <bitset>
-#include <algorithm>
-#include <string>
-
-class Solution
-{
-    public:
-    unsigned int reverseBits(unsigned int n)
+class Solution {
+  public:
+    long long reversedBits(long long x)
     {
-        string b;
-        while (n>0)
-        {
-            b += (n&1)?'1':'0';
-            n>>=1;
-        }
-        unsigned int i=stoi(b, nullptr, 2);
-        return i;
+        long long out = 0;
+        for(int i = 0; i < 31; ++i)
+            out += x & 1,
+            out <<= 1,
+            x >>= 1;
+            
+        return out;
     }
 };
 
 
 //{ Driver Code Starts.
-int main()
-{
+int main() {
     int t;
     cin >> t;
-    while (t--)
-    {
-        int N;
-        cin >> N;
+    while (t--) {
+        long long X;
         
+        cin>>X;
+
         Solution ob;
-        cout<< ob.reverseBits(N) <<"\n";
-        
+        cout << ob.reversedBits(X) << endl;
     }
     return 0;
 }
-
 // } Driver Code Ends
