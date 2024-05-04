@@ -1,8 +1,8 @@
-# GeeksforGeeks-Solutions by Saransh Bangar
+# GeeksforGeeks Solutions by Saransh Bangar
 
 Hey there, fellow code wranglers! 👋
 
-Welcome to my coding playground, where the bugs are features and errors are just happy little accidents. I'm Saransh Bangar, a second-year software engineering sorcerer at SRM Institute of Science and Technology. Behold, my brainchild – "GeeksforGeeks-Solutions." 🚀
+Welcome to my coding playground, where the bugs are features and errors are just happy little accidents. I'm Saransh Bangar, a second-year software engineering sorcerer at SRM Institute of Science and Technology. Behold, my brainchild – "GeeksforGeeks Solutions." 🚀
 
 ## 🤔 Why This Coding Carnival?
 
