@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/geek-and-its-game-of-coins4043/1">Geek and its Game of Coins</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p style="text-align: justify;"><span style="font-size: 18px;">Given three numbers <strong>n</strong>, <strong>x</strong>, and <strong>y</strong>, Geek and his friend are playing a coin game. In the beginning, there are <strong>n</strong> coins. In each move, a player can pick <strong>x</strong>, <strong>y</strong>, or <strong>1</strong> coin. Geek always starts the game. The player who picks the last coin wins the game. The task is to determine whether Geek will win the game or not if both players play optimally.</span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: <br>n = 5<br>x = 3<br>y = 4
+<strong>Output:</strong> <br>1</span>
+<span style="font-size: 18px;"><strong>Explanation</strong>:<br>There are 5 coins, every player can pick 1 or 3 or 4 coins on his/her turn. Geek can win by picking 3 coins in first chance. Now 2 coins will be left so his friend will pick one coin and now Geek can win by picking the last coin.</span></pre>
+<div><span style="font-size: 18px;"><strong>Example 2:</strong></span></div>
+<pre><span style="font-size: 18px;"><strong>Input</strong>:<br>n = 2<br>x = 3<br>y = 4
+<strong>Output:<br></strong>0</span>
+<span style="font-size: 18px;"><strong>Explanation</strong>: <br>Geek picks 1 coin and then his friend picks 1 coin.</span></pre>
+<div><span style="font-size: 18px;"><strong>Your Task:&nbsp;</strong><br>You don't need to read input or print anything. Complete the function <strong><code>findWinner</code>()&nbsp;</strong>which takes <strong>n</strong><strong>, x, </strong>and<strong> y </strong>as input parameters and returns 1 if Geek can win otherwise 0.<br><br><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></div>
+<div>&nbsp;</div>
+<div><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ <strong>n, x, y</strong>&nbsp;≤ 10<sup>5</sup></span></div></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Algorithms</code>&nbsp;
