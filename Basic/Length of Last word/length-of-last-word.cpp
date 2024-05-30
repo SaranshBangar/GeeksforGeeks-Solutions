@@ -1,6 +1,5 @@
 //{ Driver Code Starts
 //Initial Template for C++
-
 // CPP program for implementation of efficient 
 // approach to find length of last word 
 #include <bits/stdc++.h> 
