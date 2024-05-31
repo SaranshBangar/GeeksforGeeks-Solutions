@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/swap-two-nibbles-in-a-byte0446/1">Swap two nibbles in a byte</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a number <strong>n</strong>, Your task is to swap the two <strong>nibbles</strong> and find the resulting number.&nbsp;</span></p>
+<blockquote>
+<p><span style="font-size: 14pt;">A <strong><a href="http://en.wikipedia.org/wiki/Nibble" target="_blank" rel="noopener">nibble</a></strong> </span><span style="font-size: 14pt;">is a four-bit aggregation, or half an octet. There are two nibbles in a byte. For example, the decimal number 150 is represented as 10010110 in an 8-bit byte. This byte can be divided into two nibbles: 1001 and 0110.</span></p>
+</blockquote>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 100
+<strong>Output: </strong>70<br><strong>Explanation: </strong>100 in binary is 01100100, </span><span style="font-size: 20px;"><span style="font-size: 18px;">two nibbles are (0110) and (0100). If we swap the two nibbles, we get 01000110 which is 70 in decimal.</span></span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 129
+<strong>Output: </strong>24
+<strong>Explanation: </strong>129 in binary is 10000001, </span><span style="font-size: 20px;"><span style="font-size: 18px;">two nibbles are (</span></span><span style="font-size: 18px;">1000</span><span style="font-size: 20px;"><span style="font-size: 18px;">) and (</span></span><span style="font-size: 18px;">0001</span><span style="font-size: 20px;"><span style="font-size: 18px;">). If we swap the two nibbles, we get </span></span><span style="font-size: 18px;">0001</span><span style="font-size: 18px;">1000</span><span style="font-size: 20px;"><span style="font-size: 18px;"> which is 24 in decimal.</span></span></pre>
+<p><span style="font-size: 18px;"><strong>Your Task:</strong><br>You don't need to read input or print anything. Your task is to complete the function <strong>swapNibbles()</strong> which takes&nbsp;an integer <strong>n</strong> as input parameter and returns an integer after swapping nibbles in the binary representation of n.</span></p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong></span> <span style="font-size: 18px;">O(1)<br><strong>Expected Space Complexity:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>0 ≤ n ≤ 255</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Accolite</code>&nbsp;<code>Samsung</code>&nbsp;<code>Cisco</code>&nbsp;<code>Qualcomm</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;
