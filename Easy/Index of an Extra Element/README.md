@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/index-of-an-extra-element/1">Index of an Extra Element</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 20px;">You have given two <strong>sorted</strong> arrays <strong>arr1[]</strong> &amp; <strong>arr2[]</strong> of <strong>distinct</strong> elements. The first array has one element extra added in between. Return the <strong>index</strong> of the extra element.</span></p>
+<p><span style="font-size: 20px;"><strong>Note</strong>: 0-based indexing is followed.</span></p>
+<p><span style="font-size: 20px;"><strong>Examples</strong></span></p>
+<pre><span style="font-size: 20px;"><strong>Input: </strong>n = 7, arr1[] = {2,4,6,8,9,10,12}, arr2[] = {2,4,6,8,10,12}
+<strong>Output: </strong>4<strong>
+Explanation: </strong></span><span style="font-size: 18px;">In the first array, 9 is extra added and it's index is 4.</span></pre>
+<pre><span style="font-size: 20px;"><strong>Input: </strong>n = 6, arr1[] = {3,5,7,8,11,13}, arr2[] = {3,5,7,11,13}
+<strong>Output: </strong>3<br></span><span style="font-size: 14pt;"><strong>Explanation: </strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">In the first array, 8 is extra and it's index is 3.</span></span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(log n).<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1).</span></p>
+<p><span style="font-size: 20px;"><strong>Constraints:</strong><br>1&lt;=n&lt;=10<sup>5</sup><br>1&lt;=arr1[i],arr2[i]&lt;=10<sup>6</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Zoho</code>&nbsp;<code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
