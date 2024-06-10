@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1">Nuts and Bolts Problem</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><span style="font-size: 18px;">Given a set of </span><strong style="font-size: 18px;">n</strong><span style="font-size: 18px;">&nbsp;<strong>nuts</strong>&nbsp;&amp; </span><strong style="font-size: 18px;">bolts</strong><span style="font-size: 18px;">.&nbsp;There is a one-on-one mapping between nuts and bolts. You have to <strong>Match </strong>nuts and bolts efficiently. </span></span><span style="font-size: 18px;">Comparison of a nut to another nut or a bolt to another bolt is not allowed. It means the nut can only be compared with the bolt and the bolt can only be compared with the nut to see which one is bigger/smaller.<br>The elements should follow the following <strong>order</strong>: <strong>{ !,#,$,%,&amp;,*,?,@,^ }</strong></span></p>
+<p><span style="font-size: 18px;"><strong>Note</strong>: Make all the required changes <strong>directly </strong>in the given arrays, output will be handled by the driver code.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 5, nuts[] = {@, %, $, #, ^}, bolts[] = {%, @, #, $ ^}
+<strong>Output:</strong> 
+# $ % @ ^
+# $ % @ ^<br><strong>Explanation: </strong>As per the order # should come first after that $ then % then @ and ^. </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 9, nuts[] = {^, &amp;, %, @, #, *, $, ?, !}, bolts[] = {?, #, @, %, &amp;, *, $ ,^, !}
+<strong>Output:</strong> 
+! # $ % &amp; * ? @ ^
+! # $ % &amp; * ? @ ^<br><span style="font-size: 14pt;"><strong>Explanation: </strong>We'll have to match first ! then </span></span><span style="font-size: 14pt;"> # , $,  %,  &amp;,  *,  @,  ^,  ? as per the required ordering.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n(logn))<br><strong>Expected Auxiliary Space:</strong> O(log(n))</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 9<br>The arrays 'nuts' and 'bolts' can only consist of the following elements: {'@', '#', '$', '%', '^', '&amp;', '?', '*', '!'}.<br>All the elements of arrays 'nuts' and 'bolts' should be unique.</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Hike</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>MAQ Software</code>&nbsp;<code>Adobe</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Data Structures</code>&nbsp;
