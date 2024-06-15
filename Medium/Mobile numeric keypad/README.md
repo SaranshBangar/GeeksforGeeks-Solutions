@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1">Mobile numeric keypad</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">There is a standard numeric keypad on a mobile phone. You can only press the current button or buttons that are directly up, left, right, or down from it (for ex if you press 5, then pressing 2, 4, 6 &amp; 8 are allowed). Diagonal movements and pressing the bottom row corner buttons (* and #) are prohibited.</span></p>
+<p><span style="font-size: 18px;"><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/704157/Web/Other/blobid0_1718345574.png" width="190" height="214"></span></p>
+<p><span style="font-size: 18px;">Given a number <strong>n</strong>, find the number of possible unique sequences of length n that you can create by pressing buttons. </span><span style="font-size: 18px;">You can start from any digit.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: n = 1
+<strong>Output: </strong>10
+<strong>Explanation</strong>: Number of possible numbers are 10 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)  </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 2
+<strong>Output: </strong>36
+<strong>Explanation</strong>: Possible numbers: 00, 08, 11, 12, 14, 22, 21, 23, 25 and so on. If we start with 0, valid numbers will be 00, 08 (count: 2). If we start with 1, valid numbers will be 11, 12, 14 (count: 3). If we start with 2, valid numbers  will be 22, 21, 23,25 (count: 4). If we start with 3, valid numbers will be 33, 32, 36 (count: 3). If we start with 4, valid numbers will be 44,41,45,47 (count: 4). If we start with 5, valid numbers will be 55,54,52,56,58 (count: 5) and so on.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 25</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MAQ Software</code>&nbsp;<code>Sprinklr</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Algorithms</code>&nbsp;<code>Mathematical</code>&nbsp;
