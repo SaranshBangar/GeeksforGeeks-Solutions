@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1">Shortest Path in Weighted undirected graph</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given a weighted undirected graph having <strong>n</strong> vertices numbered from <strong>1 to n</strong> and <strong>m</strong> edges along with their weights. Find the <strong>shortest path </strong>between the vertex 1 and the vertex <strong>n</strong>,&nbsp;</span><span style="font-size: 18px;"> if there exists a path, and return<strong> </strong>a list of integers whose first element is the <strong>weight </strong>of the path, and the rest consist of the nodes on that path. If no path exists, then return a list containing a single element <strong>-1</strong>.</span></p>
+<p><span style="font-size: 18px;">The input list of edges is as follows - <strong>{a, b, w}</strong>, denoting there is an edge between <strong>a</strong> and <strong>b</strong>, and <strong>w</strong> is the weight of that edge.</span></p>
+<p><strong><em><span style="font-size: 18px;">Note:</span></em><span style="font-size: 18px;"> </span></strong><span style="font-size: 14pt;">The driver code here will first check&nbsp;if the&nbsp;weight of the path&nbsp;returned is&nbsp;<strong>equal</strong>&nbsp;to the&nbsp;<strong>sum </strong>of the weights along the nodes on that path, if&nbsp;<strong>equal</strong>&nbsp;it will output the&nbsp;weight of the path,&nbsp;else&nbsp;<strong>-2</strong>. In case the list contains only a single element (<strong>-1</strong>)&nbsp;it will simply output <strong>-1</strong>.&nbsp;</span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 5, m= 6, edges = [[1, 2, 2], [2, 5, 5], [2, 3, 4], [1, 4, 1], [4, 3, 3], [3, 5, 1]]
+<strong>Output: </strong>5
+<strong>Explanation: </strong>Shortest path from 1 to n is by the path 1 4 3 5 whose weight is 5. <br></span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 2, m= 1, edges = [[1, 2, 2]]
+<strong>Output: </strong>2
+<strong>Explanation: </strong>Shortest path from 1 to 2 is by the path 1 2 whose weight is 2. </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 2, m= 0, edges = [ ]
+<strong>Output: </strong>-1
+<strong>Explanation: </strong>Since there are no edges, so no answer is possible.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(m* log(n))<br><strong>Expected Space Complexity:</strong> O(n+m)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraint:</strong><br>2 &lt;= n &lt;= 10<sup>6</sup><br>0 &lt;= m &lt;= 10<sup>6</sup><br>1 &lt;= a, b &lt;= n<br>1 &lt;= w &lt;= 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;<code>Algorithms</code>&nbsp;
