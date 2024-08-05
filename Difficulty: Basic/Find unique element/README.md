@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-unique-element2632/1?page=9&difficulty=Basic,Easy&status=unsolved&sortBy=submissions">Find unique element</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;">Given an array of elements occurring in multiples of <strong>k</strong>, except one element which doesn't occur in multiple of <strong>k</strong>. Return the unique element.</span></span></p>
+<p><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Examples:</strong></span></span></p>
+<pre><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Input: </strong>k = 3, arr[] = [6, 2, 5, 2, 2, 6, 6]
+<strong>Output: </strong>5
+<strong>Explanation: </strong>Every element appears 3 times except 5.</span></span></pre>
+<pre><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Input: </strong>k = 4, arr[] = [2, 2, 2, 10, 2]
+<strong>Output: </strong>10
+<strong>Explanation: </strong>Every element appears 4 times except 10.</span></span></pre>
+<p><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Expected Time Complexity:</strong> O(n* log(arr[i]))<br><strong>Expected Auxiliary Space:</strong> O(log(arr[i]))</span></span></p>
+<p><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Constraints:</strong><br>3&lt;= arr.size()&lt;=2*10<sup>5</sup><br>2&lt;= k&lt;=2*10<sup>5</sup><br>1&lt;= arr[i]&lt;=10<sup>9</sup></span></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;<code>Data Structures</code>&nbsp;
