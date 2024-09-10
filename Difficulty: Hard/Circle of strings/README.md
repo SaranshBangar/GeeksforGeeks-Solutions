@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/circle-of-strings4530/1">Circle of strings</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr </strong>of lowercase strings, determine if the strings can be chained together to form a circle.<br>A string <strong>X </strong>can be chained together with another string <strong>Y </strong>if the last character of <strong>X </strong>is the same as the first character of <strong>Y. </strong>If every string of the array can be chained with exactly two strings of the array(one with the first character and the second with the last character of the string), it will form a circle.</span></p>
+<p><span style="font-size: 18px;"><strong>For example</strong>, for the array&nbsp;arr[] = {"for", "geek", "rig", "kaf"} the answer will be Yes as the given strings can be chained as&nbsp;"for", "rig", "geek"&nbsp;and "kaf"</span></p>
+<p><span style="font-size: 18px;"><strong>Examples</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = ["abc", "bcd", "cdf"]
+<strong>Output: </strong>0
+<strong>Explaination: </strong>These strings can't form a circle because no string has 'd'at the starting index.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = ["ab" , "bc", "cd", "da"]
+<strong>Output: </strong>1
+<strong>Explaination: </strong>These strings can form a circle of strings.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong>&nbsp;<br>1 ≤ length of strings ≤ 20</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Accolite</code>&nbsp;<code>Microsoft</code>&nbsp;<code>FactSet</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Graph</code>&nbsp;<code>Data Structures</code>&nbsp;
