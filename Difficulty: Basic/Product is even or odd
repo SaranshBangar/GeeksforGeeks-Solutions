@@ -1,0 +1,32 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/product-is-even-or-odd3020/1?page=4&difficulty=Basic&status=unsolved&sortBy=submissions">Product is even or odd?</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">You are given two long numbers <strong>N1</strong> and <strong>N2</strong>&nbsp;in a string.&nbsp;You need to find out if the product of these numbers generate an even number or an odd number, If it is an even number print&nbsp;1 else print&nbsp;0.</span></p>
+
+<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input: 
+</strong>N1 = "12"
+N2 = "15"
+<strong>Output:</strong> 1
+<strong>Explanation</strong>: 12 * 15 = 180 which is an 
+even number.
+</span></pre>
+
+<p><span style="font-size:18px">â€‹<strong>Example 2:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input</strong>: 
+N1 = "123"
+N2 = "457"
+<strong>Output:</strong> 0
+<strong>Explanation</strong>: 123*457 = 56211 which is an 
+odd number.
+</span></pre>
+
+<p><span style="font-size:18px"><strong>Your Task:</strong><br>
+You don't need to read input or print anything. Your task is to complete the function <strong>EvenOdd()&nbsp;</strong>which accepts two strings N1 and N2 as input parameter and returns 1 or 0 accordingly.</span></p>
+
+<p><span style="font-size:18px"><strong>Expected Time Complexity:&nbsp;</strong>O(1).<br>
+<strong>Expected Auxiliary Space:&nbsp;</strong>O(1).</span></p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 ≤ N1, N2 ≤ 10<sup>99</sup></span><br>
+&nbsp;</p>
+</div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Mathematical</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
