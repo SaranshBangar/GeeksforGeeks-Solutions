@@ -3,11 +3,13 @@
 
 using namespace std;
 
+
 // } Driver Code Ends
-class Solution{
-public:
-    vector<int> findTwoElement(vector<int> arr, int n)
+class Solution {
+  public:
+    vector<int> findTwoElement(vector<int>& arr) 
     {
+        int n=arr.size();
         vector<int>vec(n, 0);
         for (int i=0;i<n;i++)
             vec[arr[i]-1]++;
@@ -36,7 +38,7 @@ int main() {
             cin >> a[i];
         }
         Solution ob;
-        auto ans = ob.findTwoElement(a, n);
+        auto ans = ob.findTwoElement(a);
         cout << ans[0] << " " << ans[1] << "\n";
     }
     return 0;
