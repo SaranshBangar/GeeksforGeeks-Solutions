@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/roof-top-1587115621/1">Roof Top</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;">You are given the heights of consecutive buildings. You can move from the roof of a building to the roof of the next adjacent building. You need to find the maximum number of consecutive steps you can put forward such that you gain an increase in altitude with each step.</span></span></p>
+<p><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Examples:</strong></span></span></p>
+<pre><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Input: </strong>arr[] = [1, 2, 2, 3, 2]
+<strong>Output: </strong>1<strong>
+Explanation: </strong>1, 2, or 2, 3 are the only consecutive buildings with increasing heights thus maximum number of consecutive steps with an increase in gain in altitude would be 1 in both cases.</span>
+</span></pre>
+<pre><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Input: </strong>arr[] = [1, 2, 3, 4]
+<strong>Output: </strong>3<strong>
+Explanation: </strong>1 to 2 to 3 to 4 is the jump of length 3 to have a maximum number of buildings with increasing heights, so maximum steps with increasing altitude becomes 3.</span></span></pre>
+<p><span style="font-size: 14pt;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Expected Time Complexity:&nbsp;</strong>O(n)<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(1)</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 10<sup>6</sup><br>1 &lt;= arr[i]<sub>&nbsp;</sub>&lt;= 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
