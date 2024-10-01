@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1">Multiply two linked lists</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given elements as nodes of the two singly linked lists. The task is to multiply these two linked lists, say L1 and L2.</span></p>
+<p><span style="font-size: 18px;"><span style="font-size: 18px;"><em>Note:</em> The output could be large take modulo 10^9+7.</span></span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">LinkedList L1 : 3-&gt;2 , LinkedList L2 : 2<br><strong>Output: </strong>64<strong>
+Explanation: <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700336/Web/Other/blobid0_1721108424.png" width="181" height="205"><br></strong>Multiplication of 32 and 2 gives 64.</span>
+</pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">LinkedList L1: 1-&gt;0-&gt;0 , LinkedList L2 : 1-&gt;0<br><strong>Output: </strong>1000<strong>
+Explanation: <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700336/Web/Other/blobid1_1721108436.png" width="301" height="188"><br></strong>Multiplication of 100 and 10 gives 1000.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity</strong>: O(max(n,m))<br><strong>Expected Auxilliary Space</strong>: O(1)<br></span><span style="font-size: 18px;">where n is the size of L1 and m is the size of L2</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= number of nodes &lt;= 10<sup>5</sup><br>1 &lt;= node-&gt;data &lt;= 10<sup>3</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Modular Arithmetic</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
