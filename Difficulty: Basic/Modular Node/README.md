@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/modular-node/1?page=1&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Modular Node</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given the head of a Singly Linked List and a number k, the task is to find the modular node of the linked list. </span><span style="font-size: 18.6667px;">If no such index is present return -1.</span></p>
+<blockquote>
+<p><span style="font-size: 14pt;">A modular node is defined as the last node in the linked list whose index is divisible by k (i%k==0).&nbsp;</span></p>
+</blockquote>
+<p><span style="font-size: 20px;">Note: 1-based indexing is followed</span></p>
+<p><span style="font-size: 20px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong><strong> </strong>LinkedList: 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;6-&gt;7 , k = 3<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700634/Web/Other/blobid0_1720679969.png" width="502" height="69"> <br><strong>Output: </strong>6
+<strong>Explanation:</strong> Indexing of the linked list is same as the values of the Node. The maximum index which is divisble by 3 is 6 and the<br>node value of the 6th index is 6.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong><strong> </strong>LinkedList: 19-&gt;28-&gt;37-&gt;46-&gt;55 , k = 13<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700634/Web/Other/blobid1_1720679992.png" width="502" height="69"><strong>
+Output: </strong>-1<strong>
+Explanation:</strong> Index start from 1 and end at 5. There is no index which can divisible by 13, so output is -1.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br><span style="font-size: 14pt;"><span style="color: #1e2229; font-family: Nunito; background-color: #ffffff;">1 &lt;= number of nodes &lt;= 10</span><span style="box-sizing: border-box; line-height: 1.7em; position: relative; vertical-align: baseline; top: -0.5em; font-family: Nunito; color: #1e2229; background-color: #ffffff;">5<br style="box-sizing: border-box; line-height: 1.7em; font-family: var(--gfg-font-primary) !important; color: var(--text-color) !important; background-color: var(--background) !important;"></span><span style="color: #1e2229; font-family: Nunito; background-color: #ffffff;">1 &lt;= node-&gt;data , k &lt;= 10<sup>5</sup></span></span><br></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Modular Arithmetic</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
