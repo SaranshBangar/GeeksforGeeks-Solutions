@@ -6,14 +6,14 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    int kthElement(int k, vector<int>& arr1, vector<int>& arr2)
+    int kthElement(vector<int>& a, vector<int>& b, int k)
     {
-        int n=arr1.size(), m=arr2.size();
+        int n=a.size(), m=b.size();
         int ans[n+m];
         for (int i=0;i<n;i++)
-            ans[i]=arr1[i];
+            ans[i]=a[i];
         for (int i=0;i<m;i++)
-            ans[n+i]=arr2[i];
+            ans[n+i]=b[i];
         sort(ans, ans+n+m);
         return ans[k-1];
     }
@@ -32,22 +32,22 @@ int main() {
         cin.ignore();
         string input;
         int num;
-        vector<int> arr1, arr2;
+        vector<int> a, b;
 
         getline(cin, input);
         stringstream s2(input);
         while (s2 >> num) {
-            arr1.push_back(num);
+            a.push_back(num);
         }
 
         getline(cin, input);
         stringstream s3(input);
         while (s3 >> num) {
-            arr2.push_back(num);
+            b.push_back(num);
         }
 
         Solution ob;
-        cout << ob.kthElement(k, arr1, arr2) << endl;
+        cout << ob.kthElement(a, b, k) << endl << "~\n";
     }
     return 0;
 }
