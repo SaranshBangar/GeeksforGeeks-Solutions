@@ -17,9 +17,9 @@ struct Node {
 
 
 // } Driver Code Ends
-class Solution
-{
-    public:
+class Solution {
+  public:
+    // Function to check whether a Binary Tree is BST or not.
     vector<int>ans;
     void func(Node* root)
     {
@@ -32,6 +32,7 @@ class Solution
     }
     bool isBST(Node* root) 
     {
+        ans.clear();
         func(root);
         for (int i=0;i<ans.size()-1;i++)
         {
@@ -41,9 +42,6 @@ class Solution
         return true;
     }
 };
-
-
-
 
 
 //{ Driver Code Starts.
@@ -140,6 +138,7 @@ int main() {
 
         else
             cout << "false\n";
+        cout << "~" << endl;
     }
     return 0;
 }
