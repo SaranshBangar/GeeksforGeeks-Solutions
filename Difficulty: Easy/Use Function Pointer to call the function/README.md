@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/use-function-pointer-to-call-the-function/1?page=1&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Use Function Pointer to call the function</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">In this question we are given a multiply function with int a, int b as parameters. We need to return the multiplication of two integers from another function by using a function pointer to call that multiply function.</span>&nbsp;</p>
+<p><span style="font-size: 14pt;"><strong>Example :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>a=15, b=2<br><strong>Output: </strong>30</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>a=4, b=5<br><strong>Output: </strong>20</span></pre>
+<p><strong><span style="font-size: 14pt;">Constraints:<br></span></strong><span style="font-size: 14pt;">0&lt;= a, b &lt;=1e4</span></p></div>
