@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/vector-min-element--151110/1?page=2&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Vector min_element</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a&nbsp;<strong>vector arr[]</strong>. The task is to find the&nbsp;<strong>minimum element&nbsp;</strong>in the vector using<strong>&nbsp;the stl function min_element()</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">arr[] = [1, 2, 3, 4]<br><strong>Output: </strong>1</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [3, 2, 1]<br><strong>Output: </strong>1<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [5, 4, 2, 8, 8]</span><br><span style="font-size: 14pt;"><strong>Output: </strong>2</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
