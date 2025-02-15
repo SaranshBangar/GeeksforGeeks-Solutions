@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sum-of-squares-of-first-n-natural-numbers/1?page=1&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Sum of Squares of First n Natural Numbers</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an integer <strong>n.</strong> The task is to calculate the sum of the squares of the first &nbsp;<strong>n</strong> natural numbers.</span></p>
+<p><strong><span style="font-size: 14pt;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 14pt;">Input:&nbsp;</span></strong><span style="font-size: 14pt;">n = 2<br><strong>Output:&nbsp;</strong>5<br><strong>Explanation:</strong> 1<sup>2</sup> + 2<sup>2</sup> = 5</span></pre>
+<pre><strong><span style="font-size: 14pt;">Input:&nbsp;</span></strong><span style="font-size: 14pt;">n = 3<br><strong>Output: </strong>14<br><strong>Explanation:</strong> 1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> = 5</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>0 &lt;= n &lt;= 10<sup>3</sup></span></p></div>
