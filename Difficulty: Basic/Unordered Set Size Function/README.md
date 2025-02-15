@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/unordered-set-size-function--110845/1?page=1&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Unordered Set Size Function</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given a <strong>set </strong>of strings <strong>myset</strong>. You need to return the size of <strong>myset</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Example:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>["abc", "b", "gfg"]<br><strong>Output: </strong>3<br></span></pre>
+<p><strong><span style="font-size: 18px;">Constraints:<br></span></strong></p>
+<p><span style="font-size: 18px;">1 &lt;= size of myset &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
