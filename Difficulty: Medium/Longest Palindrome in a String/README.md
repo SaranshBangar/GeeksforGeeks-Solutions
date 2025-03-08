@@ -1,0 +1,17 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/longest-palindrome-in-a-string3411/1">Longest Palindrome in a String</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given a string <strong><code>s</code></strong>, your task is to find the longest palindromic substring within <code>s</code>. </span></p>
+<blockquote>
+<p><span style="font-size: 14pt;">A <strong>substring</strong> is a <strong>contiguous </strong>sequence of characters within a string, defined as <code>s[i...j]</code> where <code>0 ≤ i ≤ j &lt; len(s)</code>.</span></p>
+<p><span style="font-size: 14pt;">A <strong>palindrome</strong> is a string that reads the <strong>same </strong>forward and backward. More formally, <code>s</code> is a palindrome if <code>reverse(s) == s</code>.</span></p>
+</blockquote>
+<p><span style="font-size: 14pt;"><strong>Note:</strong> If there are multiple palindromic substrings with the same length, return the <strong>first occurrence</strong> of the longest palindromic substring from left to right.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18.6667px;"><strong>Input: </strong>s = “forgeeksskeegfor” <strong>
+Output: </strong>“geeksskeeg”<strong>
+Explanation: </strong>There are several possible palindromic substrings like “kssk”, “ss”, “eeksskee” etc. But the substring “geeksskeeg” is the longest among all.</span></pre>
+<pre><span style="font-size: 14pt;"><span style="font-size: 18.6667px;"><strong>Input: </strong>s = “Geeks” <strong>
+Output: </strong>“ee”
+</span><strong style="font-size: 14pt;">Explanation</strong><span style="font-size: 14pt;">: <span style="background-color: #b4d7ff;">"ee" is the longest palindromic substring of "Geeks".</span></span><span style="font-size: 14pt;"> </span></span></pre>
+<pre><span style="font-size: 14pt;"><span style="font-size: 18.6667px;"><strong>Input: </strong>s = “abc” <strong>
+Output: </strong>“a”
+</span><strong style="font-size: 14pt;">Explanation</strong><span style="font-size: 14pt;">: "a", "b" and "c" are longest palindromic substrings of same length. So,</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> the first occurrence is returned.</span></span></pre>
+<p><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Constraints:</strong><br><span style="font-size: 14pt;">1 ≤ s.size() ≤ 10</span><sup><span style="font-size: 14pt;">3</span><br><span style="font-size: 14pt;">s consist of only lowercase English letters.</span><br></sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Zoho</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Visa</code>&nbsp;<code>Walmart</code>&nbsp;<code>Google</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>Groupon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Dynamic Programming</code>&nbsp;<code>palindrome</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
