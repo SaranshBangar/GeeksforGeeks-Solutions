@@ -1,0 +1,14 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1">Minimum Platforms</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given the arrival times <strong>arr[]</strong> and departure times <strong>dep[]</strong> of all trains that arrive at a railway station on the same day. Your task is to determine the minimum number of platforms required at the station to ensure that no train is kept waiting.</span></p>
+<p><span style="font-size: 14pt;">At any given time, the same platform cannot be used for both the arrival of one train and the departure of another. Therefore, when two trains arrive at the same time, or when one arrives before another departs, additional platforms are required to accommodate both trains.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input</strong>: arr[] = [900, 940, 950, 1100, 1500, 1800], dep[] = [910, 1200, 1120, 1130, 1900, 2000]
+<strong>Output</strong>: 3
+<strong>Explanation</strong>: There are three trains during the time 9:40 to 12:00. So we need a minimum of 3 platforms.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input</strong>: arr[] = [900, 1235, 1100], dep[] = [1000, 1240, 1200]
+<strong>Output</strong>: 1
+<strong>Explanation</strong>: All train times are mutually exclusive. So we need only one platform
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input</strong>: arr[] = [1000, 935, 1100], dep[] = [1200, 1240, 1130]
+<strong>Output</strong>: 3
+<strong>Explanation</strong>: All 3 trains have to be there from 11:00 to 11:30</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:<br></strong>1≤ number of trains ≤ 50000<br>0000 ≤ arr[i] ≤ dep[i] ≤ 2359<br><strong>Note:</strong>&nbsp;Time intervals are in the 24-hour format(<strong>HHMM) ,</strong> where the first two characters represent hour (between 00 to 23 ) and the last two characters represent minutes (this will be &lt;= 59 and &gt;= 0).</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<code>Hike</code>&nbsp;<code>Walmart</code>&nbsp;<code>Adobe</code>&nbsp;<code>Google</code>&nbsp;<code>Boomerang Commerce</code>&nbsp;<code>Zillious</code>&nbsp;<code>Atlassian</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Greedy</code>&nbsp;<code>Sorting</code>&nbsp;<code>Binary Search</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
