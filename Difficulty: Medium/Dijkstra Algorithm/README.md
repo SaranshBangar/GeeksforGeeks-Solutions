@@ -1,0 +1,19 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1">Dijkstra Algorithm</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an undirected, weighted graph with <strong>V&nbsp;</strong>vertices numbered from 0 to V-1 and <strong>E&nbsp;</strong>edges, represented by 2d array <strong>edges[][]</strong>, where edges[i]=[u, v, w] represents the <strong>edge</strong> between the nodes u and v having w <strong>edge weight</strong>.<br><span style="font-size: 18.6667px;">You have to find the <strong>shortest distance </strong>of all the vertices from the source vertex&nbsp;</span><strong style="font-size: 18.6667px;">src</strong><span style="font-size: 18.6667px;">, </span></span><span style="font-size: 18.6667px;">and return an array of integers where the <strong>ith</strong> element denotes the shortest distance between <strong>ith</strong> node</span><span style="font-size: 18.6667px;">&nbsp;and source vertex</span><strong style="font-size: 18.6667px;">&nbsp;src</strong><span style="font-size: 18.6667px;">.</span></p>
+<p><span style="font-size: 14pt;"><strong>Note: </strong>The Graph is connected and doesn't contain any negative weight edge.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Input: </strong><span style="font-size: 14pt;">V = 3, edges[][] = [[0, 1, 1], [1, 2, 3], [0, 2, 6]], src = 2
+</span><strong style="font-size: 14pt;">Output: </strong><span style="font-size: 14pt;">[4, 3, 0]
+</span><strong style="font-size: 14pt;">Explanation</strong><span style="font-size: 14pt;">:
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/892538/Web/Other/blobid0_1744201836.jpg" width="317" height="236"><br></span><span style="font-size: 18.6667px;">Shortest Paths:
+For 2 to 0 minimum distance will be 4. By following path 2 -&gt; 1 -&gt; 0
+For 2 to 1 minimum distance will be 3. By following path 2 -&gt; 1
+For 2 to 2 minimum distance will be 0. By following path 2 -&gt; 2</span><span style="font-size: 14pt;"><br></span></span></pre>
+<pre><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Input: </strong><span style="font-size: 14pt;">V = 5, edges[][] = [[0, 1, 4], [0, 2, 8], [1, 4, 6], [2, 3, 2], [3, 4, 10]], src = 0
+</span><strong style="font-size: 14pt;">Output: </strong><span style="font-size: 14pt;">[0, 4, 8, 10, 10]
+</span><strong style="font-size: 14pt;">Explanation</strong><span style="font-size: 14pt;">: <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/892538/Web/Other/blobid1_1744202046.jpg" width="336" height="273"><br></span><span style="font-size: 18.6667px;">Shortest Paths: <br>For 0 to 1 minimum distance will be 4. By following path 0 -&gt; 1
+For 0 to 2 minimum distance will be 8. By following path 0 -&gt; 2
+For 0 to 3 minimum distance will be 10. By following path 0 -&gt; 2 -&gt; 3 
+For 0 to 4 minimum distance will be 10. By following path 0 -&gt; 1 -&gt; 4</span></span></pre>
+<div><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ V ≤ 10<sup>5</sup></span></div>
+<div><span style="font-size: 14pt;">1 ≤ E = edges.size() ≤ 10<sup>5</sup><br>0 ≤ edges[i][j] ≤ 10<sup>4</sup></span></div>
+<div><span style="font-size: 14pt;">0 ≤ src &lt; V</span></div></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Microsoft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
