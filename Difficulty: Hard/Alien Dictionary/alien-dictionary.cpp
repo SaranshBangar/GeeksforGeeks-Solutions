@@ -1,101 +1,124 @@
 //{ Driver Code Starts
-// Initial Template for C++
-
 #include <bits/stdc++.h>
 using namespace std;
 
+
 // } Driver Code Ends
-// User function Template for C++
 
 class Solution {
   public:
-  void DFS(int u,vector<bool>&visit,stack<int>&st,vector<int>adj[]){
-      
-      visit[u]=true;
-      for(auto v:adj[u]){
-          if(visit[v]==false)
-          DFS(v,visit,st,adj);
-      }
-      st.push(u);
-  }
-    string findOrder(string dict[], int n, int k) {
-        vector<int>adj[k];
+    string findOrder(vector<string> &words) {
+        int n = words.size();
+        map<char,vector<char>> adj;
+        vector<bool> freq1(26,0),freq2(26,0);
+        vector<int> inDegree(26,0);
         for(int i=0;i<n-1;i++){
-            string str1=dict[i];
-            string str2=dict[i+1];
-            int len=min(str1.length(),str2.length());
-            for(int j=0;j<len;j++){
-                if(str1[j]!=str2[j]){
-                    adj[str1[j]-'a'].push_back(str2[j]-'a');
+            int sz1 = words[i].length();
+            int sz2 = words[i+1].length();
+            for(int j=0;j<sz1;j++){
+                if(j>=sz2) return "";
+                if(words[i][j]!=words[i+1][j]) {
+                    adj[words[i][j]].push_back(words[i+1][j]);
+                    freq1[words[i][j]-'a']=1;
+                    freq1[words[i+1][j]-'a']=1;
+                    inDegree[words[i+1][j]-'a']++;
                     break;
                 }
             }
         }
-        stack<int>st;
-        vector<bool>visit(k,false);
-        for(int i=0;i<k;i++){
-            if(visit[i]==false)
-            DFS(i,visit,st,adj);
+        string ans = "";
+        queue<char> q;
+        int cnt =0;
+        for(int i=0;i<26;i++){
+            if(freq1[i]){
+                cnt++;
+                if(inDegree[i]==0) q.push(i+'a'); 
+            }
         }
-        string str="";
-        while(st.empty()==false){
-            str=str+char(st.top()+'a');
-            st.pop();
+        while(!q.empty()){
+            char u = q.front();
+            q.pop();
+            ans.push_back(u);
+            for(auto &v:adj[u]){
+                inDegree[v-'a']--;
+                if(inDegree[v-'a'] == 0) { q.push(v);}
+            }
         }
-        return str;
+        if(ans.length() != cnt) return "";
+        for(auto &ele:words){
+            for(auto &c:ele) freq2[c-'a']=1;
+        }
+        for(int i=0;i<26;i++){
+            if(freq1[i]==0 and freq2[i]==1) ans.push_back(i+'a');
+        }
+        return ans;
     }
+
+
 };
 
 
 //{ Driver Code Starts.
-string order;
 
-bool f(string a, string b) {
-    int p1 = 0;
-    int p2 = 0;
-    for (int i = 0; i < min(a.size(), b.size()) and p1 == p2; i++) {
-        p1 = order.find(a[i]);
-        p2 = order.find(b[i]);
-        //	cout<<p1<<" "<<p2<<endl;
+bool validate(const vector<string> &original, const string &order) {
+    unordered_map<char, int> mp;
+    for (const string &word : original) {
+        for (const char &ch : word) {
+            mp[ch] = 1;
+        }
+    }
+    for (const char &ch : order) {
+        if (mp.find(ch) == mp.end())
+            return false;
+        mp.erase(ch);
+    }
+    if (!mp.empty())
+        return false;
+
+    for (int i = 0; i < order.size(); i++) {
+        mp[order[i]] = i;
     }
 
-    if (p1 == p2 and a.size() != b.size())
-        return a.size() < b.size();
-
-    return p1 < p2;
+    for (int i = 0; i < original.size() - 1; i++) {
+        const string &a = original[i];
+        const string &b = original[i + 1];
+        int k = 0, n = a.size(), m = b.size();
+        while (k < n and k < m and a[k] == b[k]) {
+            k++;
+        }
+        if (k < n and k < m and mp[a[k]] > mp[b[k]]) {
+            return false;
+        }
+        if (k != n and k == m) {
+            return false;
+        }
+    }
+    return true;
 }
 
-// Driver program to test above functions
 int main() {
-    int t;
-    cin >> t;
+    string str;
+    getline(cin, str);
+    int t = stoi(str);
     while (t--) {
-        int N, K;
-        cin >> N >> K;
-        string dict[N];
-        for (int i = 0; i < N; i++)
-            cin >> dict[i];
+        getline(cin, str);
+        stringstream ss(str);
+        string curr;
+        vector<string> words;
+        while (ss >> curr)
+            words.push_back(curr);
 
-        Solution obj;
-        string ans = obj.findOrder(dict, N, K);
-        order = "";
-        for (int i = 0; i < ans.size(); i++)
-            order += ans[i];
+        vector<string> original = words;
 
-        string temp[N];
-        std::copy(dict, dict + N, temp);
-        sort(temp, temp + N, f);
+        Solution ob;
+        string order = ob.findOrder(words);
 
-        bool f = true;
-        for (int i = 0; i < N; i++)
-            if (dict[i] != temp[i])
-                f = false;
-
-        if (f)
-            cout << 1;
-        else
-            cout << 0;
-        cout << endl;
+        if (order.empty()) {
+            cout << "\"\"" << endl;
+        } else {
+            cout << (validate(original, order) ? "true" : "false") << endl;
+        }
+        cout << "~" << endl;
     }
     return 0;
 }
