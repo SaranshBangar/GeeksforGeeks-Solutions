@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/address-operator/1?page=2&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Address Operator</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a variable <strong>'a'</strong>, we will print the variable through its address.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><strong style="font-size: 18px;">Input: </strong><span style="font-size: 18px;">a = 4 <br><strong>Output: </strong>4 </span><span style="font-size: 18px;"><strong> </strong></span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>a = 61
+<strong>Output: </strong>61</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
