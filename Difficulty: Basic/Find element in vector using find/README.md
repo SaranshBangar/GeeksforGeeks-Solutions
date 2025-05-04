@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-element-in-vector-using-find--141628/1?page=2&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Find element in vector using find</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a vector <strong>v[]</strong>&nbsp;and a number<strong> x</strong>. The task is to check whether a <strong>number x exists</strong> in the array or not. You need to do this using<strong> the stl function find()</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>v[] = [1, 2, 3, 4], x = 4</span>
+<span style="font-size: 18px;"><strong>Output: </strong>true</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>v[] = [4, 55, 22], x = 6</span>
+<span style="font-size: 18px;"><strong>Output: </strong>false</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
