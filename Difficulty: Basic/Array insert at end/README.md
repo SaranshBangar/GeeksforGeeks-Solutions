@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/array-insert-at-end/1?page=3&difficulty=Basic,Easy&status=unsolved&sortBy=submissions">Array insert at end</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Insertion is a basic but frequently used operation. Arrays in most languages can not be dynamically shrinked or expanded. Here, we will work with such arrays and try to insert an element at the end of the array.</span></p>
+<p><span style="font-size: 18px;">You need to modify the given array <strong>arr</strong>. The size of the array is given by <strong>sizeOfArray</strong>. You need to <strong>insert </strong>an <strong>element </strong>at the&nbsp;<strong>end. </strong>Array already have the sizeofarray -1 elements. </span><a class="reportedIssues_anchorTag__VKRFb" href="https://www.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&amp;utm_medium=collab_striver_ytdescription&amp;utm_campaign=rotation" target="_blank" rel="noopener noreferrer">Find Kth Rotation</a></p>
+<p><span style="font-size: 18px;"><strong>Examples :<br></strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>sizeOfArray = 6, arr[] = {1, 2, 3, 4, 5}, element = 90
+<strong>Output: </strong>1 2 3 4 5 90
+<strong>Explanation: </strong>After inserting 90 at the end, we have array elements as 1 2 3 4 5 90.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>sizeOfArray = 4, arr[] = {1, 2, 3}, element = 50
+<strong>Output: </strong>1 2 3 50
+<strong>Explanation: </strong>After inserting 50 at the end, we have array elements as 1 2 3 50.</span>
+</pre>
+<p><strong><span style="font-size: 18px;">Your Task:</span></strong><br><span style="font-size: 18px;">You don't need to read input or print anything.&nbsp;You only need to complete the function <strong>insertAtEnd() </strong>that takes arr<strong>, </strong>sizeOfArray<strong>, </strong>element as input and modifies the given array <strong>arr</strong> as per requirements. The<strong> driver code </strong>takes care of the <strong>printing</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong>&nbsp;O(1).<br><strong>Expected Auxiliary Space:</strong>&nbsp;O(1).</span></p>
+<p><strong><span style="font-size: 18px;">Constraints:</span></strong><br><span style="font-size: 18px;">1 &lt;= sizeOfArray &lt;= 1000<br>0 &lt;= element, arr<sub>i </sub>&lt;= 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
