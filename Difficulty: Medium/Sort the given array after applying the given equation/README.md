@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sort-the-given-array-after-applying-the-given-equation0304/1">Sort the given array after applying the given equation</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer array <strong>arr[] </strong>sorted in ascending order, along with three integers: <strong>A, B, and C</strong>. The task is to transform each element <strong>x</strong> in the array using the quadratic function <strong>A*(x<sup>2</sup>) + B*x + C</strong>. After applying this transformation to every element, return the modified array in sorted order.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [-4, -2, 0, 2, 4], A = 1, B = 3, C = 5
+<strong>Output:</strong> [3, 5, 9, 15, 33]
+<strong>Explanation: </strong>After applying f(x) = 1*(x<sup>2</sup>)+ 3*x + 5 to each x, we get [9, 3, 5, 15, 33]. After sorting this array, the array becomes [3, 5, 9, 15, 33].</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [-3, -1, 2, 4], A = -1, B = 0, C = 0
+<strong>Output:</strong> [-16, -9, -4, -1]
+<strong>Explanation: </strong>After applying f(x) = -1*(x<sup>2</sup>) + 0*x + 0 to each x, we get [ -9, -1, -4, -16 ]. After sorting this array, the array becomes  [-16, -9, -4, -1].</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>-10<sup>3</sup> ≤ arr[i], A, B, C ≤ 10<sup>3</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Adobe</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Sorting</code>&nbsp;<code>Algorithms</code>&nbsp;
