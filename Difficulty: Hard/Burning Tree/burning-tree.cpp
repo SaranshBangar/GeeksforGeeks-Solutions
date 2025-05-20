@@ -1,10 +1,11 @@
 //{ Driver Code Starts
-//Initial Template for C++
+// Initial Template for C++
 
 #include <bits/stdc++.h>
 using namespace std;
 
-struct Node {
+class Node {
+  public:
     int data;
     Node *left;
     Node *right;
@@ -14,7 +15,6 @@ struct Node {
         left = right = NULL;
     }
 };
-
 
 Node *buildTree(string str) {
     // Corner Case
@@ -80,10 +80,10 @@ Node *buildTree(string str) {
 
 
 // } Driver Code Ends
-//User function Template for C++
 
 /*
-struct Node {
+class Node {
+  public:
     int data;
     Node *left;
     Node *right;
@@ -140,27 +140,26 @@ class Solution {
 
 //{ Driver Code Starts.
 
-int main() 
-{
+int main() {
     int tc;
     scanf("%d ", &tc);
-    while (tc--) 
-    {    
+    while (tc--) {
         string treeString;
         getline(cin, treeString);
         // cout<<treeString<<"\n";
         int target;
-        cin>>target;
+        cin >> target;
         // cout<<target<<"\n";
 
         Node *root = buildTree(treeString);
         Solution obj;
-        cout<<obj.minTime(root, target)<<"\n"; 
+        cout << obj.minTime(root, target) << "\n";
 
         cin.ignore();
 
+        cout << "~"
+             << "\n";
     }
-
 
     return 0;
 }
