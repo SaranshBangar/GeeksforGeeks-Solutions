@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/print-leaf-nodes-from-preorder-traversal-of-bst2657/1">Print leaf nodes from preorder traversal of BST</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a <strong>preorder</strong> traversal of a <strong>BST</strong>, find&nbsp;the <strong>leaf nodes</strong> of the tree without building the tree.</span></p>
+<p><br><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>preorder[] = [5, 2, 10]<strong><br></strong><strong>Output:</strong> [2, 10]
+<strong>Explaination:</strong> <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/895564/Web/Other/blobid0_1747480179.jpg" width="196" height="140"><br>2 and 10 are the leaf nodes as shown in the figure.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>preorder[] = [4, 2, 1, 3, 6, 5]
+<strong>Output:</strong> [1, 3, 5]
+<strong>Explaination:</strong> <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/895564/Web/Other/blobid1_1747480193.jpg" width="223" height="187"><br>1, 3 and 5 are the leaf nodes as shown in the figure.
+</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>preorder[] = [8, 2, 5, 10, 12]<strong><br></strong><strong>Output:</strong> [5, 12]
+<strong>Explaination:</strong> <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/895564/Web/Other/blobid2_1747480202.jpg" width="206" height="200"><br>5 and 12 are the leaf nodes as shown in the figure.</span></pre>
+<p><br><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤&nbsp;</span><span style="font-size: 18px;">preorder.size()</span><span style="font-size: 18px;">&nbsp;≤ 10</span><sup>3<br></sup><span style="font-size: 18px;">1 ≤&nbsp;</span><span style="font-size: 18px;">preorder</span><span style="font-size: 18px;">[i]&nbsp;≤ 10</span><sup>3</sup></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Facebook</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;<code>Stack</code>&nbsp;<code>Binary Search Tree</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
