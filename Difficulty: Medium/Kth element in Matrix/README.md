@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/kth-element-in-matrix/1">Kth element in Matrix</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;">Given a matrix&nbsp;<strong>mat[][]</strong>&nbsp;of size n*n, where each row and column is sorted in&nbsp;<strong>non-decreasing</strong>&nbsp;order. Find the&nbsp;<strong>kth</strong>&nbsp;smallest element in the matrix.</span></span></p>
+<div><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Examples:</strong></span></span></div>
+<pre><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Input: </strong>n = 4, mat[][] = [[16, 28, 60, 64], [22, 41, 63, 91], [27, 50, 87, 93], [36, 78, 87, 94]], k = 3
+<strong>Output: </strong>27
+<strong>Explanation: </strong>27 is the 3<sup>rd</sup> smallest element.</span></span></pre>
+<pre><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Input: </strong>n = 4, mat[][] = [[10, 20, 30, 40], [15, 25, 35, 45], [24, 29, 37, 48], [32, 33, 39, 50]], k = 7
+<strong>Output: </strong>30
+<strong>Explanation: </strong>30 is the 7<sup>th</sup> smallest element.</span></span></pre>
+<p><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 500<br>1 &lt;= mat[i][j] &lt;= 10000</span></span><br><span style="font-size: 18px;"><span style="font-family: arial,helvetica,sans-serif;">1 &lt;= k &lt;= n*n</span></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Samsung</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Matrix</code>&nbsp;<code>Heap</code>&nbsp;<code>Data Structures</code>&nbsp;
