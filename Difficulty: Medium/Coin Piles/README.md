@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/coin-piles5152/1">Coin Piles</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p data-start="246" data-end="383"><span style="font-size: 14pt;">You are given an array <strong>arr[]</strong> of integers, where each element represents the number of coins in a pile. You are also given an integer <strong>k.</strong><br></span><span style="font-size: 14pt;">Your task is to remove the minimum number of <strong>coins</strong> such that the absolute difference between the number of coins in any two updated piles is at most <strong>k.</strong></span></p>
+<p><span style="font-size: 18px;"> <strong>Note</strong>:&nbsp;You can also remove a pile by removing all the coins of that pile.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 2, 2, 2], k = 0
+<strong>Output: </strong>0
+<strong>Explanation: </strong></span><span style="font-size: 18px;">For any two piles the difference in the number of coins is &lt;= 0. So no need to remove any coin.</span> 
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[]<strong> = </strong>[1, 5, 1, 2, 5, 1], k = 3
+<strong>Output: </strong>2</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong></span><span style="font-size: 18px;">If we remove one coin each from both the piles containing 5 coins, then for any two piles the absolute difference in the number of coins is &lt;= 3.</span> 
+</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 ≤ arr.size() ≤ 10<sup>5<br></sup><span style="font-size: 18.6667px;">1 ≤ arr[i] ≤ 10</span><sup>4</sup><sup><br></sup></span><span style="font-size: 18px;">0 ≤ k ≤ 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Microsoft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Greedy</code>&nbsp;<code>Binary Search</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;<code>two-pointer-algorithm</code>&nbsp;
