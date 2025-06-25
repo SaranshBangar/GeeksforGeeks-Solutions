@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/vector-max-element--145411/1?page=2&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Vector max_element</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a <strong>vector arr[]</strong>. The task is to find the <strong>maximum element </strong>in the vector using<strong> the stl function max_element()</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">arr[] = [1, 2, 3, 4]<br><strong>Output: </strong>4</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [3, 2, 1]<br><strong>Output: </strong>3<br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 4, 2, 8, 8]</span><br><span style="font-size: 14pt;"><strong>Output: </strong>8</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>STL</code>&nbsp;
