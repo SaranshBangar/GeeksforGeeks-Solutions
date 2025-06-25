@@ -1,0 +1,4 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/print-ascii-value-in-python/1?page=2&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Print ascii value in python</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given a character <strong>ch&nbsp;</strong>as input, print its ascii value.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;">Input: ch = 'a'</span><br><span style="font-size: 14pt;">Output: 97</span></pre>
+<pre><span style="font-size: 14pt;">Input: ch = 'A'</span><br><span style="font-size: 14pt;">Output: 65</span></pre></div>
