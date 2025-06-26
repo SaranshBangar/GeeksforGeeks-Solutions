@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/table-difference--155953/1?page=1&category=CPP&difficulty=Basic,Easy&status=unsolved&sortBy=latest">Table Difference</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two number&nbsp;<strong>n1</strong>&nbsp;and&nbsp;<strong>n2</strong>,&nbsp;<strong>n1 &gt; n2</strong>. Find&nbsp;the differences between mathematical tables of&nbsp;<strong>n1&nbsp;</strong>and&nbsp;<strong>n2&nbsp;</strong>and&nbsp;<strong>print</strong> in a single line.<br>Note: Don't add a new line in the end.</span></p>
+<p><span style="font-size: 18px;"><strong>Example :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n1 = 9, n2 =<strong> </strong>4
+<strong>Output: </strong>5 10 15 20 25 30 35 40 45 50&nbsp;
+<strong>Explanation:<br>  </strong>9 18 27 36 45 54 63 72 81 90<br>- 4  8 12 16 20 24 28 32 36 40<br>-----------------------------------------<br>= 5 10 15 20 25 30 35 40 45 50</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n1 = 6, n2 = 2<br><strong>Output: </strong>5 10 15 20 25 30 35 40 45 50&nbsp;
+<strong>Explanation:<br>  </strong>6 12 18 24 30 36 42 48 54 60<br>- 2  4  6  8 10 12 14 16 18 20<br>-----------------------------------------<br>= 4  8 12 16 20 24 28 32 36 40</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1&nbsp; ≤&nbsp; n1 , n2&nbsp; ≤&nbsp; 10<sup>6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>python-loops</code>&nbsp;<code>CPP</code>&nbsp;<code>Java</code>&nbsp;
