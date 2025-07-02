@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/valid-triangle--121441/1?page=2&difficulty=Basic,Easy&status=unsolved&sortBy=latest">Valid Triangle</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given the three sides of a triangle <strong>a</strong>, <strong>b,</strong> and <strong>c</strong>. Check whether the triangle is valid or not.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> a = 8, b = 15, c = 17<br></span><span style="font-size: 14pt;"><strong>Output:</strong> Valid</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong>&nbsp;a = 3, b = 6, c = 9<br></span><span style="font-size: 14pt;"><strong>Output:</strong> Invalid</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;= a,b,c &lt;= 10<sup>6</sup></span></p></div>
