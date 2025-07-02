@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1?page=2&difficulty=Basic,Easy&status=unsolved&sortBy=latest">Check if two strings are same or not</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given two strings, determine if they are <strong data-start="123" data-end="134">exactly</strong> the same, considering case sensitivity.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:&nbsp;</strong>s1 = "abc" , s1 = "abc"&nbsp;<br><strong>Output:</strong> YES</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>s1 = " " , s2 = " "<br><strong>Output:</strong> YES</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>s1 = "geeks", s2 = "Geeks"<br><strong>Output:</strong> NO</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ |s1|, |s2| ≤ 10<sup>5</sup></span></p></div>
