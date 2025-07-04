@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-distinct-elements--130928/1?page=1&category=Arrays,Strings&difficulty=Basic,Easy&status=unsolved&sortBy=latest">Find distinct elements</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer array<strong> arr[]</strong><strong>,</strong> return the <strong>count</strong> of all the <strong>distinct</strong> elements in an array</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [2, 2, 3, 2]
+<strong>Output:</strong> 2<br><strong>Explanation: </strong>Distinct elements are {2, 3}</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [12, 1, 14, 3, 16]
+<strong>Output:</strong> 5<br><strong>Explanation:</strong> Distinct elements are {12, 1, 14, 3, 16}<br></span></pre>
+<pre><strong><span style="font-size: 18px;">Input:</span></strong><span style="font-size: 18px;"> arr[] = [1, 1, 1, 1]<br><strong>Output: </strong>1<br><strong>Explanation: </strong>Only one distinct element {1}  </span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &nbsp;≤ &nbsp;arr.size() &nbsp;≤ &nbsp;10<sup>5</sup><br>-1000 &nbsp;≤ &nbsp;arr[i] &nbsp;≤ &nbsp;1000</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
