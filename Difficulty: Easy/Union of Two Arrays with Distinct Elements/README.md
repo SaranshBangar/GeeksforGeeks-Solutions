@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/union-of-two-arrays-with-distinct-elements/1?page=1&category=Arrays,Strings&difficulty=Basic,Easy&status=unsolved&sortBy=latest">Union of Two Arrays with Distinct Elements</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given two&nbsp;<strong>unsorted</strong>&nbsp;arrays&nbsp;<strong>a[]</strong>&nbsp;and&nbsp;<strong>b[]&nbsp;</strong>each consisting of&nbsp;<strong>distinct</strong>&nbsp;elements , the task is to return the&nbsp;of elements in the&nbsp;<strong>union</strong> of the two arrays in <strong>sorted </strong>order.</span></p>
+<blockquote><span style="font-size: 18px;">Union of two arrays can be defined as the set containing distinct common elements in both the arrays.&nbsp;</span></blockquote>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">a[] = [89, 24, 75, 11, 23], b[] = [89, 2, 4]</span><br><span style="font-size: 18px;"><strong>Output: </strong>[2, 4, 11, 23,  24, 75, 89]
+</span><span style="font-size: 18px;"><strong>Explanation: </strong>All the distinct elements in both arrays.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">a[] = [1, 2, 3, 4, 5, 6], b[] = [3, 4, 5, 6, 7]
+<strong>Output: </strong>[1, 2, 3, 4, 5, 6, 7]<strong>
+Explanation: </strong></span><span style="font-size: 14pt;">All the distinct elements in both arrays.
+</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1&nbsp; ≤&nbsp; a.size(), b.size() ≤&nbsp; 10<sup>5</sup><br>1&nbsp; ≤&nbsp; a[i], b[i]&nbsp; ≤&nbsp; 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;
