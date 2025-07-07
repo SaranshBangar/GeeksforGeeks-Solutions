@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/rotate-doubly-linked-list-by-p-nodes/1?page=1&category=Linked%20List&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Rotate doubly Linked List</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a doubly linked list, rotate the linked list counter-clockwise by P nodes. Here P is a given positive integer and is smaller than the count of nodes(N) in a linked list.</span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong><span style="font-size: 18px;"><strong> </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> Doubly Linkedlist: 1 &lt;-&gt; 2 &lt;-&gt; 3 &lt;-&gt; 4 &lt;-&gt; 5 &lt;-&gt; 6 ,p = 2</span>
+<strong><span style="font-size: 18px;">Output:</span> </strong><span style="font-size: 18px;">3 &lt;-&gt; 4 &lt;-&gt; 5 &lt;-&gt; 6 &lt;-&gt; 1 &lt;-&gt; 2</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Doubly linked list after rotating</span>
+<span style="font-size: 18px;">2</span> <span style="font-size: 18px;">nodes is: 3 4 5 6 1 2.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">Doubly Linkedlist:</span><strong><span style="font-size: 18px;"> </span></strong><span style="font-size: 18px;">3 &lt;-&gt; 4 &lt;-&gt; 5 &lt;-&gt; 1 ,p = 3</span>
+<span style="font-size: 18px;"><strong>Output:</strong> 1 &lt;-&gt; 3 &lt;-&gt; 4 &lt;-&gt; 5<br></span></pre>
+<pre><strong>Input: </strong>Doubly Linkedlist:<strong> </strong>1 &lt;-&gt; 2 &lt;-&gt; 3 &lt;-&gt; 1 ,p = 2
+<strong>Output:</strong> 3 &lt;-&gt; 1 &lt;-&gt; 2</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1 &lt;= p &lt;=&nbsp; 10<sup>5</sup><br>2 &lt;= number of nodes &lt;= 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>doubly-linked-list</code>&nbsp;<code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
