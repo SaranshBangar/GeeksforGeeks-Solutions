@@ -1,36 +1,36 @@
-# GeeksforGeeks Solutions by Saransh Bangar
+# GeeksforGeeks Solutions
 
-Hey there, fellow code wranglers! 👋
+Welcome to a curated collection of **GeeksforGeeks** problem solutions — a practical archive for practicing and mastering Data Structures and Algorithms (DSA) using **C++**.
 
-Welcome to my coding playground, where the bugs are features and errors are just happy little accidents. I'm Saransh Bangar, a second-year software engineering sorcerer at SRM Institute of Science and Technology. Behold, my brainchild – "GeeksforGeeks Solutions." 🚀
+## About
 
-## 🤔 Why This Coding Carnival?
+I’m **Saransh Bangar**, a final-year undergraduate student at **SRM Institute of Science and Technology** and an aspiring software developer. This repository serves as my personal log of solved problems to reinforce my DSA skills, maintain consistency, and provide useful solutions to others.
 
-Picture this: a coding enthusiast who loves DSA problems and wants to stay GitHub-active. That's me! I decided, why not create a repository that kills two birds with one stone? Hence, this collection of algorithmic wonders was born.
+## Repository Structure
 
-## 🗃️ Inside the Mystery Box
+* **Language:** C++, Python
+* **Organization:** Solutions are categorized by difficulty level and problem type, following a clear and consistent naming convention.
+* **Readability:** Each solution emphasizes clarity, efficiency, and practical coding patterns.
 
-- **Organization:** Ever wanted to solve problems by shouting "easy-peasy" or "bring it on"? Now you can! Solutions are neatly categorized by difficulty, and then we throw them into the magical realm of alphabetical order.
+## Purpose
 
-- **Programming Language:** The chosen incantation for this repository is C++. It's like the magic wand of programming languages – versatile, powerful, and occasionally mysterious.
+* Regular practice of DSA concepts and maintaining productive GitHub activity.
+* Providing learners with well-structured solutions and coding paradigms.
+* Documenting my problem-solving progress over time.
 
-## 🤝 One-Man Coding Symphony
+## Contributing
 
-This is a solo journey through the coding cosmos. But hey, if you stumble upon this repository and think, "I could make this even cooler," hit me up with your ideas. Who knows, maybe we'll turn this solo into a duet!
+This is currently a solo learning project. However, if you identify an improvement, optimization, or want to suggest enhancements, feel free to open an issue or submit a pull request. All feedback and contributions are welcome.
 
-### How to Contribute?
+## Future Roadmap
 
-1. Imagine contributing.
-2. Realize it's a solo project.
-3. Contribute in spirit and wish me luck. 🍀
+* Add more advanced topics and problem sets.
+* Include detailed explanations or in-code comments.
+* Expand the repository to include other programming languages or curated problem collections.
 
-## 🚀 Future Plans: The Coding Odyssey Continues
+## How to Use
 
-What's next, you ask? More problems, more C++ wizardry, and maybe, just maybe, a feature where the code writes itself. A coder can dream, right?
-
-## 🎉 Coding Fiesta
-
-Enough talk, more code! Dive in, dance with the algorithms, and remember: bugs are just misunderstood features. Happy coding, my fellow wizards! 🧙‍♂️🚀
+Browse the folders, review the solutions, and run the code. Feel free to refer to these implementations as you practice or study.
 
 ### Repo View Counter
 ![Visitor Count](https://profile-counter.glitch.me/{SaranshBangar}/count.svg)
