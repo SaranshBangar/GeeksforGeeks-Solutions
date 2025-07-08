@@ -1,0 +1,4 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/decimal-to-binary-1610434291--161808/1?page=5&difficulty=Basic,Easy&status=unsolved&sortBy=latest">Decimal to binary</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a decimal number n, compute its binary equivalent.</span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> n = 7 <br></span><span style="font-size: 18px;"><strong>Output:</strong> 111</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> n = 33 <br><strong>Output: </strong>100001 </span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
