@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/print-different-characters-in-sorted-manner/1?page=5&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Print Different Characters In Sorted Manner</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a string <strong>s</strong>,<strong> </strong>return a string with all <strong>distinct </strong>characters from the given string in sorted order (non-decreasing), without using any sorting algorithm.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "abdbc"</span>
+<span style="font-size: 18px;"><strong>Output: "</strong>abcd"</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "fdfdfd"</span>
+<span style="font-size: 18px;"><strong>Output: "</strong>df"</span></pre>
+<p><strong><span style="font-size: 18px;">Constraints:</span></strong><br><span style="font-size: 18px;">1 &lt;= |s| &lt;= 50</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Java</code>&nbsp;<code>STL</code>&nbsp;<code>Java-Collections</code>&nbsp;
