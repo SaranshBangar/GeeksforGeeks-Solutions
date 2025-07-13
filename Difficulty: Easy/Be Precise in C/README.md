@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/be-precise-in-c--101423/1?page=1&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Be Precise in C</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p data-pm-slice="1 1 []"><span style="font-size: 14pt;">You are given two floating-point numbers <strong>a</strong> and <strong>b</strong>. Your task is to divide <strong>a</strong> by <strong>b</strong> and print the result up to exactly 3 decimal places.<br></span><span style="font-size: 14pt;">Make sure the output is properly formatted to show 3 digits after the decimal point, even if some of them are zero.</span></p>
+<p><span style="font-size: 14pt;"><strong>Example:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> a = 5.43, b = 2.653
+<strong>Output:</strong> 2.047
+</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ a, b ≤ 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
