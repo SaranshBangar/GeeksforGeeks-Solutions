@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sort-in-descending--141631/1?page=3&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Sort in Descending</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">We are familiar with the sort() function. We have to sort a array <strong>arr</strong>&nbsp;of <strong>n </strong>numbers&nbsp;in descending order. You need to use lambda expression to generate a function for our&nbsp;<strong>sort()</strong> as its third parameter&nbsp;with <strong>a</strong>&nbsp;and <strong>b</strong>&nbsp;as arguments which will return the boolean comparison to sort the numbers accordingly.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arrr = [324, 5, 2, 2]</span><span style="font-size: 18px;">
+<strong>Output: </strong>324 5 2 2</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr = [54, 43, 2, 1, 5]</span><span style="font-size: 18px;">
+<strong>Output: </strong>54 43 5 2 1</span></pre>
+<p><strong><span style="font-size: 18px;">Constraints:<br></span></strong><span style="font-size: 18px;">1&lt;=n&lt;=1e6</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
