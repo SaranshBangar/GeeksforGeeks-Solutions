@@ -7,7 +7,7 @@ int main() {
     // cout << "Hello World\n";
 
     // Print GeeksforGeeks
-    cout << "GeeksForGeeks\n";
+    cout << "GeeksforGeeks\n";
 
     return 0;
 }
