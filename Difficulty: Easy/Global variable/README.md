@@ -1,0 +1,5 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/global-variable--141631/1?page=6&difficulty=Basic,Easy&status=unsolved&sortBy=accuracy">Global variable</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You have to initialize a global variable <strong>g&nbsp;</strong>having<strong>&nbsp;int</strong>&nbsp;type&nbsp;and value as 10.</span></p>
+<p><span style="font-size: 18px;">Note:</span><span style="font-size: 18px;">&nbsp; This&nbsp;<strong>g&nbsp;</strong></span><span style="font-size: 18px;">variable is used in the main function, you don't need to change that.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong>&nbsp;</span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>No Input
+<strong>Output: </strong>10</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>CPP</code>&nbsp;
