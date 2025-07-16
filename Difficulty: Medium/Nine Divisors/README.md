@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/nine-divisors3751/1">Nine Divisors</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a positive integer <strong>n</strong>, you need to <strong>count </strong>the numbers less than or equal to <strong>n</strong> having <strong>exactly 9 divisors</strong>.</span></p>
+<p><strong><span style="font-size: 18px;">Examples :</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 100</span><strong><span style="font-size: 18px;">
+Output: </span></strong><span style="font-size: 18px;">2</span><strong><span style="font-size: 18px;">
+Explanation: </span></strong><span style="font-size: 18px;">N</span><span style="font-size: 18px;">umbers which have exactly 9 divisors are 36 and 100.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 200</span><strong><span style="font-size: 18px;">
+Output: </span></strong><span style="font-size: 18px;">3</span><strong><span style="font-size: 18px;">
+Explanation: </span></strong><span style="font-size: 18px;">Numbers which have exactly 9 divisors are </span><span style="font-size: 18px;">36, 100, 196.</span>&nbsp;</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Searching</code>&nbsp;<code>Prime Number</code>&nbsp;<code>sieve</code>&nbsp;<code>Binary Search</code>&nbsp;<code>Algorithms</code>&nbsp;
