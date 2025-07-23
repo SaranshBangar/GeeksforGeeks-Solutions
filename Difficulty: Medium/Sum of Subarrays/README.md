@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1">Sum of Subarrays</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong>, find the <strong data-start="212" data-end="236">sum </strong>of all<strong data-start="212" data-end="236"> </strong>the<strong data-start="212" data-end="236"> subarrays</strong> of the given array.</span></p>
+<p><span style="font-size: 18px;"><strong>Note: </strong>It is guaranteed that the total sum will fit within a 32-bit integer range.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 2, 3] <br><strong>Output: </strong>20
+<strong>Explanation: </strong>All subarray sums are: </span><span style="font-size: 18px;">[1] = 1, [2] = 2, [3] = 3, [1, 2] = 3, [2, 3] = 5, [1, 2, 3] = 6. Thus total sum is 1 + 2 + 3 + 3 + 5 + 6 = 20.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 3]
+<strong>Output: </strong>8<br></span><span style="font-size: 18px;"><strong>Explanation: </strong>All subarray sums are: [1] = 1, [3] = 3, [1, 3] = 4. Thus total sum is 1 + 3 + 4 = 8.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints :</strong><br>1 ≤ arr.size() ≤ 10<sup>5</sup><br>0 ≤ arr[i] ≤ 10<sup>4</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
