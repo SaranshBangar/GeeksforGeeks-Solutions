@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> nextLargerElement(vector<int> &arr)
+    vector<int> nextGreater(vector<int> &arr)
     {
         vector<int>tmp=arr;
         int n=arr.size();
